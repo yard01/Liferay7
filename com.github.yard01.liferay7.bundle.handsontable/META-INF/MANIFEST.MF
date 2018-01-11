@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Handsontable
+Bundle-SymbolicName: com.github.yard01.liferay7.bundle.handsontable
+Bundle-Version: 1.0.0.qualifier
+Provide-Capability: osgi.webresource;osgi.webresource=hnt-bundle;version:Version="1.0.0"
+Tool: Bnd-3.2.0.201801102007
+Liferay-JS-Config: /META-INF/resources/config.js
+Web-ContextPath: /hnt-bundle-1.0.0
