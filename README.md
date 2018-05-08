@@ -3,14 +3,32 @@
 These modules are examples Handsontable (https://github.com/handsontable/handsontable) in Liferay Portal v7 CE 
 (https://web.liferay.com/community/liferay-projects/liferay-portal/overview).
 
-Variant 1.
-
-com.github.yard01.liferay7.bundle.handsontable - is OSGi bundle. It contains and provides Handsontable for other modules and portlets.
-
-com.github.yard01.liferay7.bundle.portlet.handsontable.user - is a demo portlet that uses Handsontable from OSGi bundle.
 
 
+    Variant 1.
 
-Variant 2. 
+liferay7-handsontable-osgi - is a OSGi bundle. It contains and provides Handsontable for other modules and portlets.
 
-com.github.yard01.liferay7.bundle.portlet.js-handsontable - is a demo portlet thet uses Hansontable as native JavaScript module.
+liferay7-handsontable-user - is a demo portlet that uses Handsontable from the OSGi bundle.
+
+
+
+    Variant 2.
+
+liferay7-handsontable-jsp - is a demo portlet that uses Hansontable as a native JavaScript module on the JSP page.
+
+
+
+    Load data to Handsontable from server.
+
+liferay7-handsontable-load-from-server - is a demo portlet that uses Handsontable for viewing data in pagination mode.
+
+Data are loading from the server. This example uses Handsontable as OSGI bundle (see Variant 1).
+
+
+
+    Save data from Handsontable to server.
+
+liferay7-handsontable-save-to-server - is a demo portlet that uses Handsontable for saving data on the server.
+
+This example uses Handsontable as OSGI bundle (see Variant 1).
