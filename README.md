@@ -32,3 +32,8 @@ Data are loading from the server. This example uses Handsontable as OSGI bundle 
 liferay7-handsontable-save-to-server - is a demo portlet that uses Handsontable for saving data on the server.
 
 This example uses Handsontable as OSGI bundle (see Variant 1).
+
+
+     Multipage Portlet
+
+liferay7-multipage-portlet - is example of using a multipage portlet
