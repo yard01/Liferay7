@@ -30,9 +30,13 @@ import org.osgi.service.component.annotations.Component;
 		"javax.portlet.display-name=Multipaging Portlet",
 		"javax.portlet.init-param.template-path=/", 
 		"javax.portlet.init-param.view-template=/view.jsp",
+		"com.liferay.portlet.header-portlet-css=/css/handsontable.full.css",
+		
 		"javax.portlet.resource-bundle=content.Language",
 		"javax.portlet.init-param.view-JspA=/viewA.jsp",
-		"javax.portlet.init-param.view-JspB=/viewB.jsp",	
+		"javax.portlet.init-param.view-JspB=/viewB.jsp",
+		"javax.portlet.init-param.view-Detail=/viewDetail.jsp",
+		
 		"javax.portlet.security-role-ref=power-user,user" }, 
 service = Portlet.class)
 
@@ -56,7 +60,6 @@ public class MultipagingPortlet extends MVCPortlet {
 	@Override
 	public void doView(RenderRequest request, RenderResponse response) throws IOException, PortletException {
 		//super.doView(request, response);
-		
 		
 		String viewJSP = "";
 		PortletRequestDispatcher portletRequestDispatcher = null;

@@ -36,3 +36,13 @@
 <portlet:renderURL var="viewPageAURL">
    	<portlet:param name="jspPage" value="<%=thisPortlet.getInitParameter("view-JspA") %>" />
 </portlet:renderURL>	
+
+<portlet:renderURL var="viewPageBURL">
+   	<portlet:param name="jspPage" value="<%=thisPortlet.getInitParameter("view-JspB") %>" />
+</portlet:renderURL>	
+
+<portlet:renderURL var="viewPageDetailURL">
+   	<portlet:param name="jspPage" value="<%=thisPortlet.getInitParameter("view-Detail") %>" />
+   	<portlet:param name="par1" value="1" />
+   	<portlet:param name="par2" value="2" />   	
+</portlet:renderURL>	
