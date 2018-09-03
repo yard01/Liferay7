@@ -1,4 +1,4 @@
-# Using Handsontable in portlets of Liferay Portal v7
+# Using Handsontable in portlets of Liferay Portal v7 and other examples
 
 These modules are examples Handsontable (https://github.com/handsontable/handsontable) in Liferay Portal v7 CE 
 (https://web.liferay.com/community/liferay-projects/liferay-portal/overview).
@@ -34,6 +34,11 @@ liferay7-handsontable-save-to-server - is a demo portlet that uses Handsontable 
 This example uses Handsontable as OSGI bundle (see Variant 1).
 
 
-     Multipage Portlet
+    Multipage Portlet
 
 liferay7-multipage-portlet - is example of using a multipage portlet
+
+
+    Tree Selector
+
+liferay7-treeselector - is example of using a TreeView component. Made with using the AlloyUI-framework.

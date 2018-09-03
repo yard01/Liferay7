@@ -1,0 +1,88 @@
+[
+      {
+        children: [
+          {
+            label: 'For children',
+            id: 'chi',
+            children: [
+            		{	
+            			id: 'chi.1',
+            			label:	'Alice in Wonderland'
+            			
+            		},
+            		{
+            			id: 'chi.2',
+            			label: 'The Adventures of Tom Sawyer'
+            		
+            		},
+            		{
+            			id: 'chi.3',
+            			label: 'Robinson Crusoe'            		
+            		}
+            		
+            	]
+           
+          },
+          {
+            label: 'Fiction',	
+                id: 'fict',
+	            children: [
+            		{	
+            			id: 'fict.1',
+            			label:	'A Street Cat Named Bob'
+            			
+            		},
+            		{
+            			id: 'fict.2',
+            			label: 'The Mist'
+            		
+            		}
+            		
+            	]
+                
+          },
+          {
+            label: 'History',
+            id: 'hist',
+            children: [
+            		{	
+            			id: 'hist.1',
+            			label:	'The Tank War'
+            			
+            		},
+            		{
+            			id: 'hist.2',
+            			label: 'Napoleon Bonaparte'
+            		
+            		}
+            		
+            	]
+
+          },
+          {
+            label: 'Science',
+            id: 'sci',
+            children: [
+            		{	
+            			id: 'sci.1',
+            			label:	'Cybernetics'
+            			
+            		},
+            		{
+            			id: 'sci.2',
+            			label: 'The Game Theory'
+            		
+            		}
+            		
+            	]
+            
+
+          }
+          
+        ],
+        expanded: true,
+        label: 'Book Catalog',
+        id: root
+      }
+      
+    ]
