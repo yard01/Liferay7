@@ -42,3 +42,8 @@ liferay7-multipage-portlet - is example of using a multipage portlet
     Tree Selector
 
 liferay7-treeselector - is example of using a TreeView component. Made with using the AlloyUI-framework.
+
+
+    Liferay7 and JBoss Hibernate framework
+
+Examples of using a Hibernate framework in Liferay modules
