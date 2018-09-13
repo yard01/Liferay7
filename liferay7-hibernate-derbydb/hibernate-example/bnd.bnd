@@ -1,0 +1,7 @@
+Bundle-Activator: com.github.yard01.liferay7.orm.bookdb.OrmBookdbActivator
+Bundle-Name: com.github.yard01.liferay7.orm.bookdb
+Bundle-SymbolicName: com.github.yard01.liferay7.orm.bookdb
+Bundle-Version: 1.0.0
+Import-Package: \
+	,\
+	*
