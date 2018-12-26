@@ -39,6 +39,11 @@ This example uses Handsontable as OSGI bundle (see Variant 1).
 liferay7-multipage-portlet - is example of using a multipage portlet
 
 
+    Modal Window Portlet
+
+Examples of using modal windows
+
+
     Tree Selector
 
 liferay7-treeselector - is example of using a TreeView component. Made with using the AlloyUI-framework.
