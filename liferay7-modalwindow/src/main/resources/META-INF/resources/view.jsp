@@ -2,8 +2,10 @@
 <%@ page import="com.liferay.portal.kernel.portlet.LiferayWindowState" %>
 
 <p>
+- 	<link rel="stylesheet" type="text/css" href="<%=request.getContextPath()%>/css/jsmodal.css" />     
+
 	<b><liferay-ui:message key="com.github.yard01.liferay7.portlet.modalwindow.caption"/></b>
-	
+	 
 	<portlet:renderURL var ="popupUrl" windowState="<%=LiferayWindowState.POP_UP.toString() %>">
 		<portlet:param name="mvcPath" value="/modal.jsp"/>
 	</portlet:renderURL>
@@ -14,9 +16,33 @@
 		</aui:col>
 		<aui:col md="1" sd="2">
 			<aui:button type="button" value="Easy HTML-Modal" onClick="openEasyModal()"></aui:button>
-		</aui:col>	
+		</aui:col>
+		<aui:col md="1" sd="2">
+			<aui:button type="button" value="Java Script Modal" onClick="openJSModal()"></aui:button>
+		</aui:col>				
 	</aui:row>	
 	
+	<!-- The Modal -->
+	<div id="myJSModal" class="modal_demo">
+	<!-- Modal content -->
+  		<div class="modal-content_demo">
+    		<div class="modal-header_demo">
+      			<span class="close">&times;</span>
+      			<h2>Modal Header</h2>
+    		</div>
+    		
+    		<div class="modal-body_demo">
+      			<p>Some text in the Modal Body</p>      			
+			    <p>Some other text...</p>
+			    <br><jsp:include page="/jsmodal.jsp"/>
+			    
+		    </div>
+		    
+    		<div class="modal-footer_demo">
+      			<h2>Modal Footer</h2>
+    		</div>
+  		</div>
+	</div>	
 	<aui:script>
 		Liferay.provide(
 		   window,
@@ -84,6 +110,24 @@
 			    });    
 		
 		};
+		
+		var modal = document.getElementById('myJSModal');
+		var span = document.getElementsByClassName("close")[0];
+		function openJSModal() {
+			modal.style.display = "block";
+		}
+		
+		// When the user clicks on <span> (x), close the modal
+		span.onclick = function() {
+			modal.style.display = "none";
+		}
+		
+		// When the user clicks anywhere outside of the modal, close it
+		window.onclick = function(event) {
+		  if (event.target == modal) {
+		    modal.style.display = "none";
+		  }
+		}
 	</aui:script>
 	
 </p>
